@@ -37,4 +37,15 @@ public class StreamReader {
         printer(inputStream);
     }
 
+    //binary 01 = decimal 1
+    //binary 11 = decimal 3
+    // 1 binary || 1 = 1 true
+    // 0 binary || 1 = 1 true
+
+    //Result 11
+
+
+    //OR Operation: 1
+
+
 }
