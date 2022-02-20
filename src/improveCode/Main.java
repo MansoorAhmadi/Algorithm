@@ -2,6 +2,7 @@ package improveCode;
 
 public class Main {
 
+    //The question was to IMPROVE THE CODE
     static String getAnimalName(Animal animal){
         return animal.getName();
     }
