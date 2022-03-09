@@ -15,10 +15,10 @@ public class ChessTournament {
     //4 is not equal 2. Recall the function
     //When 2 equals 2. We return 1 team
     public static int count(int n) {
-        if (n==2) {
-            return n-1;
+        if (n == 2) {
+            return n - 1;
         } else
-            return count(n-1) + (n-1);
+            return count(n - 1) + (n - 1);
     }
 
     public static void main(String[] args) {
@@ -27,5 +27,6 @@ public class ChessTournament {
         System.out.println(count(player4));
         System.out.println(count(player10000));
     }
+
 
 }
